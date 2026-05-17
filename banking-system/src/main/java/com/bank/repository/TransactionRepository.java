@@ -1,0 +1,14 @@
+package com.bank.repository;
+
+import com.bank.entity.Transaction;
+import com.bank.entity.User;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface TransactionRepository
+        extends JpaRepository<Transaction, Integer> {
+
+    List<Transaction> findByUser(User user);
+}
