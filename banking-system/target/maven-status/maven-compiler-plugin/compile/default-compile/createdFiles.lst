@@ -1,6 +1,0 @@
-com\bank\entity\User.class
-com\bank\service\UserService.class
-com\bank\repository\UserRepository.class
-com\bank\service\AccountService.class
-com\bank\controller\UserController.class
-com\bank\dto\DepositRequest.class
